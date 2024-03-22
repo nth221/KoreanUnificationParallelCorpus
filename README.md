@@ -1,3 +1,12 @@
+<head>
+    <style>
+        th, td {
+        text-align: center;
+        border: 1px solid black;
+        }
+    </style>
+</head>
+
 # Korean Unification Parallel Corpus
 1) [What is KUPC?](#one)   
 2) [Data](#two)   
@@ -29,12 +38,6 @@ The dataset contains **130,738 rows** covering a range of topics of classical no
 <a name="two"></a>
 ## **2) Data**
 ### **2-2) List**
-<style>
-    th, td {
-    text-align: center;
-    border: 1px solid black;
-    }
-</style>
 
 <table border="1" width="80%">
   <tr>
