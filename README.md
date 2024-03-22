@@ -30,10 +30,10 @@ The dataset contains **130,738 rows** covering a range of topics of classical no
 ## **2) Data**
 ### **2-2) List**
 <style>
-  th, td {
+    th, td {
     text-align: center;
     border: 1px solid black;
-  }
+    }
 </style>
 
 <table border="1" width="80%">
@@ -134,7 +134,7 @@ For Jane Eyre, a certain number of rows were randomly selected from the North Ko
 ## **3) Translation Model Experiments**
 ### **3-1) Experimental Settings**
 #### **Foundation Model**
-KoBART (Korean BART) was used as the foundation translation model. [KoBART](https://github.com/seujung/KoBART-translation) was developed by the SKT AI team.
+[KoBART](https://github.com/seujung/KoBART-translation) (Korean BART) was used as the foundation translation model. KoBART was developed by the SKT AI team.
 
 #### **Training**
 We trained a North Korean(NK) → South Korean(SK)  translation model and a South Korean(SK) → North Korean(NK) translation model. The training was conducted on 90% of all the 13,0738 rows of classic novels and bible data. The remaining 10% was used as the test data. For the training process, the hyperparameters were set as follows. 
