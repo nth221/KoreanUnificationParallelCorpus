@@ -1,1 +1,2 @@
 NKtoSK_pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+SKtoNK_pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
