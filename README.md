@@ -94,11 +94,6 @@ The dataset consists of classic novels and the Bible. The classic novel data is 
     <th>test</th>
   </tr>
   <tr>
-    <td>Rate</td>
-    <td>9</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td>Count</td>
     <td>117,665</td>
     <td>13,073</td>
