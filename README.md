@@ -37,7 +37,7 @@ The dataset contains **130,738 rows** covering a range of topics of classical no
 
 <a name="two"></a>
 ## **2) Data**
-### **2-2) List**
+### **2-1) List**
 
 <table border="1" width="80%">
   <tr>
