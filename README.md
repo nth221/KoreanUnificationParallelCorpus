@@ -18,9 +18,11 @@
 <a name="one"></a>
 ## **1) What is KUPC?**
 
-South Korean and North Korean are dialects of the Korean language, sharing similarities but differing in vocabulary, grammar, spelling, and other linguistic aspects. The linguistic divergence stemming from the entrenchment of division and differing language policies and perspectives can continue to pose obstacles to communication even after reunification. Therefore, research on the languages of North and South Korea is a crucial task that should precede reunification.
+South Korean and North Korean can be considered as the two main dialects of the Korean language. Despite sharing the same language, the two dialects differ in various linguistic aspects such as vocabulary, grammar, and spelling. The ongoing separation between North Korea and South Korea has widened the differences between the two languages. This language gap can become a major communication obstacle after Korean reunification. 
 
-The collection of North Korean data for linguistic research is restricted due to the confrontational dynamics between North and South Korea and North Korea's closed policies. This limitation exacerbates the scarcity of North-South Korean language pairs and hampers the development of translation tools. Hence, there is a need to construct and publicly share high-quality North-South Korean language data pairs to foster research on the Korean language and the development of translation tools in both North and South Korea.
+Therefore, it is important to conduct research on how to bridge the gap between the North Korean and South Korean languages. One example would be to develop a North and South Korean translator. However, it is difficult to find a North Korean language dataset that has a corresponding South Korean language dataset due to the complex inter-Korean relations and the North Korean government’s closed-door policy. The lack of a North Korean and South Korean parallel corpus hinders active investments in machine translation of the North Korean language. 
+
+To address this issue, the Korean Unification Parallel Corpus (KUPC) repository has been created. Its main goal is to provide a high-quality North and South Korean parallel corpus and make it available to the public. The KUPC also explains how to use the parallel corpus for research, particularly in the field of machine translation. 
 
 ### **1-1) Sources**
 
