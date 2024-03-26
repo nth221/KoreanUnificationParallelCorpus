@@ -39,7 +39,7 @@ The dataset contains **130,738 rows** covering a range of topics of classical no
 
 <a name="two"></a>
 ## **2) Data**
-### **2-2) List**
+### **2-1) List**
 
 <table border="1" width="80%">
   <tr>
@@ -94,11 +94,6 @@ The dataset consists of classic novels and the Bible. The classic novel data is 
     <th></th>
     <th>train</th>
     <th>test</th>
-  </tr>
-  <tr>
-    <td>Rate</td>
-    <td>9</td>
-    <td>1</td>
   </tr>
   <tr>
     <td>Count</td>
