@@ -1,12 +1,3 @@
-<head>
-    <style>
-        th, td {
-        text-align: center;
-        border: 1px solid black;
-        }
-    </style>
-</head>
-
 # Korean Unification Parallel Corpus
 1) [What is KUPC?](#one)   
 2) [Data](#two)   
