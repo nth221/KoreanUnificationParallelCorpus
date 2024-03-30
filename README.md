@@ -1,5 +1,5 @@
-# Korean Unification Parallel Corpus
-1) [What is KUPC?](#one)   
+# Korean Parallel Corpus
+1) [What is KPC?](#one)   
 2) [Data](#two)   
 3) [Translation Model Experiments](#three)   
 4) [Change Log](#four)   
@@ -7,13 +7,13 @@
 6) [Licnese](#six)
 
 <a name="one"></a>
-## **1) What is KUPC?**
+## **1) What is KPC?**
 
 South Korean and North Korean can be considered as the two main dialects of the Korean language. Despite sharing the same language, the two dialects differ in various linguistic aspects such as vocabulary, grammar, and spelling. The ongoing separation between North Korea and South Korea has widened the differences between the two languages. This language gap can become a major communication obstacle after Korean reunification. 
 
 Therefore, it is important to conduct research on how to bridge the gap between the North Korean and South Korean languages. One example would be to develop a North and South Korean translator. However, it is difficult to find a North Korean language dataset that has a corresponding South Korean language dataset due to the complex inter-Korean relations and the North Korean government’s closed-door policy. The lack of a North Korean and South Korean parallel corpus hinders active investments in machine translation of the North Korean language. 
 
-To address this issue, the Korean Unification Parallel Corpus (KUPC) repository has been created. Its main goal is to provide a high-quality North and South Korean parallel corpus and make it available to the public. The KUPC also explains how to use the parallel corpus for research, particularly in the field of machine translation. 
+To address this issue, the Korean Unification Parallel Corpus (KPC) repository has been created. Its main goal is to provide a high-quality North and South Korean parallel corpus and make it available to the public. The KUPC also explains how to use the parallel corpus for research, particularly in the field of machine translation. 
 
 ### **1-1) Sources**
 
