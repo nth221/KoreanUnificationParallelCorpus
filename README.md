@@ -9,11 +9,11 @@
 <a name="one"></a>
 ## **1) What is KPC?**
 
-South Korean and North Korean can be considered as the two main dialects of the Korean language. Despite sharing the same language, the two dialects differ in various linguistic aspects such as vocabulary, grammar, and spelling. The ongoing separation between North Korea and South Korea has widened the differences between the two languages. This language gap can become a major communication obstacle after Korean reunification. 
+Korean is the official language of both South Korea and North Korea. Despite sharing the same language, the North Korean and South Korean language differ in various linguistic aspects such as vocabulary, grammar, and spelling. The ongoing separation between North Korea and South Korea has widened the differences between the two languages. This language gap can become a major communication obstacle after Korean reunification. 
 
-Therefore, it is important to conduct research on how to bridge the gap between the North Korean and South Korean languages. One example would be to develop a North and South Korean translator. However, it is difficult to find a North Korean language dataset that has a corresponding South Korean language dataset due to the complex inter-Korean relations and the North Korean government’s closed-door policy. The lack of a North Korean and South Korean parallel corpus hinders active investments in machine translation of the North Korean language. 
+Therefore, it is important to conduct research on how to bridge the gap between the North Korean and South Korean languages. One example would be to develop a North and South Korean translator. However, it is difficult to find a North Korean language dataset that has a corresponding South Korean language dataset. The lack of a North Korean and South Korean parallel corpus hinders active investments in machine translation of the North Korean language. 
 
-To address this issue, the Korean Unification Parallel Corpus (KPC) repository has been created. Its main goal is to provide a high-quality North and South Korean parallel corpus and make it available to the public. The KUPC also explains how to use the parallel corpus for research, particularly in the field of machine translation. 
+To address this issue, the Korean Unification Parallel Corpus (KPC) repository has been created. Its main goal is to provide a high-quality North and South Korean parallel corpus and make it available to the public. The KPC also explains how to use the parallel corpus for research, particularly in the field of machine translation. 
 
 ### **1-1) Sources**
 
@@ -78,29 +78,6 @@ The dataset contains **130,738 rows** covering a range of topics of classical no
 
 The dataset consists of classic novels and the Bible. The classic novel data is divided into two types of foreign novels and three types of Korean novels, each based on single data from North Korean publishers and multiple data from South Korean publishers. Consequently, the classic novel data collected a total of 100,752 North Korean-South Korean sentence pairs. The Bible data was collected in the same manner, resulting in a total of 29,986 data points. Thus, a total of 130,738 parallel corpora were constructed based on South Korean standards. Among these, the maximum number of characters per sentence is 286, and the minimum is 2.
 
----
-
-<table border="1">
-  <tr>
-    <th></th>
-    <th>train</th>
-    <th>test</th>
-  </tr>
-  <tr>
-    <td>Count</td>
-    <td>117,665</td>
-    <td>13,073</td>
-  </tr>
-  <tr>
-    <td>Size</td>
-    <td>9.9MB</td>
-    <td>961KB</td>
-</table>
-
-The data was split into a 9:1 ratio for training and testing. For foreign novel data, since each book is based on single data from North Korean publishers and multiple data from South Korean publishers, the same North Korean sentences are repeated as many times as the number of publications from South Korean publishers. Thus, caution was taken to ensure that North Korean sentences in the test data did not exist in the training data. 
-
-For Jane Eyre, a certain number of rows were randomly selected from the North Korean data, and the corresponding North-South Korean sentence pairs were extracted as test data, while the remaining sentence pairs were used as training data.
-
 ### **2-2) Examples**
 <table border="1">
   <tr>
@@ -128,7 +105,30 @@ For Jane Eyre, a certain number of rows were randomly selected from the North Ko
 [KoBART](https://github.com/seujung/KoBART-translation) (Korean BART) was used as the foundation translation model. KoBART was developed by the SKT AI team.
 
 #### **Training**
-We trained a North Korean(NK) → South Korean(SK)  translation model and a South Korean(SK) → North Korean(NK) translation model. The training was conducted on 90% of all the 13,0738 rows of classic novels and bible data. The remaining 10% was used as the test data. For the training process, the hyperparameters were set as follows. 
+We trained a North Korean(NK) → South Korean(SK)  translation model and a South Korean(SK) → North Korean(NK) translation model. The training was conducted on 90% of all the 13,0738 rows of classic novels and bible data. The remaining 10% was used as the test data. 
+
+The data was split into a 9:1 ratio for training and testing. For foreign novel data, since each book is based on single data from North Korean publishers and multiple data from South Korean publishers, the same North Korean sentences are repeated as many times as the number of publications from South Korean publishers. Thus, caution was taken to ensure that North Korean sentences in the test data did not exist in the training data. 
+
+For Jane Eyre, a certain number of rows were randomly selected from the North Korean data, and the corresponding North-South Korean sentence pairs were extracted as test data, while the remaining sentence pairs were used as training data.
+
+<table border="1">
+  <tr>
+    <th></th>
+    <th>train</th>
+    <th>test</th>
+  </tr>
+  <tr>
+    <td>Count</td>
+    <td>117,665</td>
+    <td>13,073</td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>9.9MB</td>
+    <td>961KB</td>
+</table>
+
+For the training process, the hyperparameters were set as follows. 
 
 <table border="1">
   <tr>
