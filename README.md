@@ -185,10 +185,23 @@ The evaluation metrics used on the test data set are the BLEU score and BERT Sco
 
 <a name="four"></a>
 ## 4) Change Log
+**[v1.0]**\
+2024-03-27\
+A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 
 <a name="five"></a>
 ## 5) Contacts
+- Hyesun Chun (전혜선) hannahchun2000@gmail.com
+- Ahhyun Kum (금아현)  dortli1108@gmail.com
+- Haeun Yoon (윤하은) wjdgusgkdms0224@gmail.com
 
 <a name="six"></a>
 ## 6) License
+Korean Parallel Corpus (KPC) is licensed under [GNU Free Documentation License (GFDL)](https://www.gnu.org/licenses/fdl-1.3.html).
+
 ## References
+- KoBART\
+https://github.com/SKT-AI/KoBART
+
+- KoBART-translation\
+https://github.com/seujung/KoBART-translation
