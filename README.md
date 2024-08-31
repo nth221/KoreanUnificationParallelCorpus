@@ -191,9 +191,7 @@ A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 
 <a name="five"></a>
 ## 5) Contacts
-- Hyesun Chun (전혜선) hannahchun2000@gmail.com
-- Ahhyun Kum (금아현)  dortli1108@gmail.com
-- Haeun Yoon (윤하은) wjdgusgkdms0224@gmail.com
+- Anonymized for review
 
 <a name="six"></a>
 ## 6) License
