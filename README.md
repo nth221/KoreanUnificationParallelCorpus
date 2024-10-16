@@ -191,7 +191,8 @@ A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 
 <a name="five"></a>
 ## 5) Contacts
-- Anonymized for review
+- Charmgil Hong (홍참길) charmgil@handong.edu
+- Handong AI Lab https://hail.handong.edu/
 
 <a name="six"></a>
 ## 6) License
