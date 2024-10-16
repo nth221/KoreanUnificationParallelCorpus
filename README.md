@@ -209,8 +209,7 @@ If you use **Korean Parallel Corpus (KPC)**, please cite the following paper and
 ```
 @inproceedings{chun2024paclic,
       title="Bridging the Linguistic Divide: Developing a North-South Korean Parallel Corpus for Machine Translation", 
-      author={Hannah H.
- Chun and Chanju Lee and Hyunkyoo Choi and Charmgil Hong},
+      author={Hannah H. Chun and Chanju Lee and Hyunkyoo Choi and Charmgil Hong},
       booktitle = "Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation",
       month = dec,
     year = "2024",
