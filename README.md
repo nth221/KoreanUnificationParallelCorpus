@@ -197,7 +197,7 @@ A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 - Chanju Lee (이찬주) jenny991119@gmail.com
 
 <a name="six"></a>
-## 6) Contacts
+## 6) Contact
 - Charmgil Hong (홍참길) charmgil@handong.edu
 - Handong AI Lab https://hail.handong.edu/
 
