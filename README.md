@@ -3,8 +3,9 @@
 2) [Data](#two)   
 3) [Translation Model Experiments](#three)   
 4) [Change Log](#four)   
-5) [Contacts](#five)
-6) [Licnese](#six)
+5) [Contributors](#five)
+6) [Contact](#six)
+7) [Citation](#seven)
 
 <a name="one"></a>
 ## **1) What is KPC?**
