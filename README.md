@@ -196,6 +196,8 @@ A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 - Ahhyun Kum (금아현) dortli1108@gmail.com
 - Haeun Yoon (윤하은) wjdgusgkdms0224@gmail.com
 - Chanju Lee (이찬주) jenny991119@gmail.com
+- Hyunkyoo Choi (최현규) hkchoi@kisti.re.kr
+- Charmgil Hong (홍참길) charmgil@handong.edu
 
 <a name="six"></a>
 ## 6) Contact
