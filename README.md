@@ -202,8 +202,25 @@ A total of 130,738 North Korean-South Korean sentence pairs uploaded.
 - Handong AI Lab https://hail.handong.edu/
 
 <a name="seven"></a>
-## 7) License
-Korean Parallel Corpus (KPC) is licensed under [GNU Free Documentation License (GFDL)](https://www.gnu.org/licenses/fdl-1.3.html).
+## 7) Citation
+If you use **Korean Parallel Corpus (KPC)**, please cite the following paper and star this repository:
+
+```
+@inproceedings{chun2024paclic,
+      title="Bridging the Linguistic Divide: Developing a North-South Korean Parallel Corpus for Machine Translation", 
+      author={Hannah H.
+ Chun and Chanju Lee and Hyunkyoo Choi and Charmgil Hong},
+      booktitle = "Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation",
+      month = dec,
+    year = "2024",
+    address = "Tokyo, Japan",
+    publisher = "Association for Computational Linguistics",
+}
+```
+
+KPC is licensed under [GNU Free Documentation License (GFDL)](https://www.gnu.org/licenses/fdl-1.3.html).
+
+
 
 ## References
 - KoBART\
