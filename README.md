@@ -225,8 +225,7 @@ KPC is licensed under [GNU Free Documentation License (GFDL)](https://www.gnu.or
 
 ## Acknowledgement
 
-This research was supported (1) by the Korea Institute of Science and Technology Information (KISTI) in 2023 (K-23-L01-C01, Construction on Intelligent SciTech Information Curation) and (2) by the Ministry of Science and ICT (MSIT), Korea, under the National Program for Excellence in SW, supervised by the Institute of Information & Communications Technology Planning & Evaluation (IITP) in 2024 (2023-0-00055).
-
+This research was supported (1) by the Korea Institute of Science and Technology Information (KISTI) in 2023 (K-23-L01-C01, Construction on Intelligent SciTech Information Curation), (2) by the MSIT(Ministry of Science, ICT), Korea, under the Global Research Support Program in the Digital Field program (RS-2024-00431394) supervised by the IITP (Institute for Information & Communications Technology Planning & Evaluation), and (3) by the MSIT, Korea, under the National Program for Excellence in SW, supervised by the IITP in 2024 (2023-0-00055).
 
 ## References
 - KoBART\
